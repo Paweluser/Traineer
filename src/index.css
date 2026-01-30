@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@theme inline {
+	--main-color: #2b2b2b;
+	--text-color: #fff;
+	--hover-color: #ff8904;
 }

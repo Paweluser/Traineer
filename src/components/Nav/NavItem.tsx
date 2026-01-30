@@ -11,9 +11,19 @@ export function NavItem({ label, to, icon }: navLink) {
   const Icon = icon;
 
   return (
-    <NavLink to={to} className={({ isActive }) => (isActive ? "" : "")}>
-      <Icon className="" />
-      <span className="">{label}</span>
+    <NavLink
+      to={to}
+      className={({ isActive }) => {
+        const base =
+          "flex flex-col items-center rounded-xl p-2 transition-colors select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30";
+
+        const active = isActive ? "text-(--hover-color)" : "";
+
+        return [base, active].join(" ");
+      }}
+    >
+      <Icon className="mb-1 h-6 w-6 md:h-8 md:w-8 md:mb-1.5" />
+      <span className="text-xs md:text-base">{label}</span>
     </NavLink>
   );
 }

@@ -1,5 +1,5 @@
-import { Navigate } from "./components/Nav/Navigate";
+import { MainLayout } from "./Layout/MainLayout";
 
 export function App() {
-  return <Navigate />;
+  return <MainLayout />;
 }
