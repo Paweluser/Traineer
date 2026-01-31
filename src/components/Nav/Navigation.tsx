@@ -21,9 +21,12 @@ export function Navigation({ variant }: PropsNav) {
   } else if (variant === "desktop") {
     return (
       <nav className="h-full rounded-2xl border border-white/10 bg-white/5 p-3 backdrop-blur">
-        <ul className="flex flex-col gap-1">
+        <div className="py-6 text-center text-2xl transition-colors hover:text-(--hover-color)">
+          <p>Traineer</p>
+        </div>
+        <ul className="flex h-full flex-col gap-3 mt-6">
           {navItems.map(({ label, to, icon }) => (
-            <li key={to} className="">
+            <li key={to}>
               <NavItem to={to} label={label} icon={icon} />
             </li>
           ))}

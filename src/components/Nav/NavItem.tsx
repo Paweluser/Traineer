@@ -15,7 +15,7 @@ export function NavItem({ label, to, icon }: navLink) {
       to={to}
       className={({ isActive }) => {
         const base =
-          "flex flex-col items-center rounded-xl p-2 transition-colors select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30";
+          "flex flex-col items-center rounded-xl p-2 transition-all select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30 hover:text-(--hover-color) hover:scale-110";
 
         const active = isActive ? "text-(--hover-color)" : "";
 
