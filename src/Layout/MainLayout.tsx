@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Navigation } from "../components/Nav/Navigation";
+import { TopBar } from "../components/TopBar/TopBar";
 
 export function MainLayout() {
   return (
@@ -10,6 +11,7 @@ export function MainLayout() {
             <Navigation variant="desktop" />
           </aside>
           <main className="flex-1 overflow-y-auto py-4 pb-24 lg:py-6 lg:pb-6">
+            <TopBar />
             <Outlet />
           </main>
           <div className="lg:hidden">
