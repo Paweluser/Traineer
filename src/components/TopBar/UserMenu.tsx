@@ -1,5 +1,13 @@
 export function UserMenu() {
-    return <div>
-        <img src="/dog.jpg" alt="Zdjęcie użytkownika" className="rounded-4xl w-12 h-12 bg-center" width='100' height='100' />
+  return (
+    <div className="lg:order-4 lg:mx-4">
+      <img
+        src="/dog.jpg"
+        alt="Zdjęcie użytkownika"
+        className="h-12 w-12 rounded-4xl object-cover object-center lg:grow"
+        width="100"
+        height="100"
+      />
     </div>
+  );
 }

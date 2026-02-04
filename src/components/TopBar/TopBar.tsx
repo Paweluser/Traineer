@@ -5,7 +5,7 @@ import { UserMenu } from "./UserMenu";
 
 export function TopBar() {
   return (
-    <div className="flex justify-around items-center">
+    <div className="flex items-center justify-around lg:gap-4 lg:mt-7">
       <MailBtn />
       <AppTitle />
       <SearchInput />
