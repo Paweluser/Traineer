@@ -7,7 +7,7 @@ export function StatsRow() {
       <ul className="flex items-center justify-around gap-4">
         {quickStats.map(({ label, value, unit, icon }) => {
           return (
-            <li key={label} className="">
+            <li key={label}>
               <StatCard label={label} value={value} unit={unit} icon={icon} />
             </li>
           );
