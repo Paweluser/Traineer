@@ -1,11 +1,8 @@
 import { Outlet } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 import { Navigation } from "../components/Nav/Navigation";
 import { TopBar } from "../components/TopBar/TopBar";
-import { TrainingHome } from "../components/TrainingOverview/TrainingHome";
 
 export function MainLayout() {
-  const { pathname } = useLocation();
 
   return (
     <div className="min-h-dvh w-full bg-(--main-color) text-(--text-color) antialiased">
@@ -16,7 +13,7 @@ export function MainLayout() {
           </aside>
           <main className="flex-1 overflow-y-auto py-4 pb-24 lg:ml-10 lg:p-6">
             <TopBar />
-            {pathname === "/" ? <TrainingHome /> : <Outlet />}
+            <Outlet />
           </main>
           <div className="lg:hidden">
             <Navigation variant="mobile" />
