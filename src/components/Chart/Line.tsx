@@ -9,7 +9,6 @@ import {
   type ChartOptions,
 } from "chart.js";
 import { lineChartData } from "../../constants/chartData";
-import { memo } from "react";
 
 ChartJS.register(
   CategoryScale,
@@ -23,7 +22,7 @@ type LineGraphProps = {
   onPointHover: (index: number | null) => void;
 };
 
-function LineGraphComponent({ onPointHover }: LineGraphProps) {
+export function LineGraphComponent({ onPointHover }: LineGraphProps) {
   const options: ChartOptions<"line"> = {
     responsive: true,
     maintainAspectRatio: false,
@@ -75,5 +74,3 @@ function LineGraphComponent({ onPointHover }: LineGraphProps) {
     </div>
   );
 }
-
-export const LineGraph = memo(LineGraphComponent);
