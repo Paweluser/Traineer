@@ -4,8 +4,8 @@ import { TrainingBtn } from "./TrainingBtn";
 export function TrainingHome() {
   return (
     <div className="relative mt-10 flex w-full flex-col items-start justify-center gap-1 md:gap-5 rounded-2xl bg-(--glass-color)/50 p-4 backdrop-blur-xl">
-      <p className="font-extralight">Polecane</p>
-      <h2 className="mb-3 text-3xl">Optymalizuj swój trening</h2>
+      <p className="font-extralight">Twój plan na dziś</p>
+      <h2 className="mb-3 text-3xl">Klata i triceps</h2>
       <TrainingBtn />
       <StatsRow />
       <img
