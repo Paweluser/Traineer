@@ -1,3 +1,5 @@
+import { MessagesList } from "./MessagesList";
+
 export function TraineerAI() {
   return (
     <div className="mt-3 flex h-full w-full flex-col gap-4">
@@ -10,9 +12,7 @@ export function TraineerAI() {
         </p>
       </div>
       <div className="flex-1 rounded-2xl bg-(--glass-color)/30 p-6 backdrop-blur-xl">
-        {/* <p className="text-center text-sm text-gray-500">
-          Tu będą wiadomości...
-        </p> */}
+        <MessagesList />
       </div>
 
       <div className="flex gap-4 rounded-2xl bg-(--glass-color)/50 p-4 backdrop-blur-xl">
