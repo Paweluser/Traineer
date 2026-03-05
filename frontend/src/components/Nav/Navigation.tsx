@@ -1,6 +1,6 @@
 import { NavItem } from "./NavItem";
 import { navItems } from "../../constants/navigation";
-import { BottomNavBtns } from "./BottomNavBtns";
+import { BottomNavBtns } from "./BottomNavBtns/BottomNavBtns";
 
 type PropsNav = {
   variant: "mobile" | "desktop";
@@ -21,7 +21,7 @@ export function Navigation({ variant }: PropsNav) {
     );
   } else if (variant === "desktop") {
     return (
-      <nav className="flex flex-col h-full rounded-2xl border border-white/10 bg-white/5 p-3 backdrop-blur">
+      <nav className="relative z-50 flex h-full flex-col rounded-2xl border border-white/10 bg-white/5 p-3 backdrop-blur">
         <div className="py-6 text-center text-2xl transition-colors hover:text-(--hover-color)">
           <p>Traineer</p>
         </div>
@@ -32,7 +32,7 @@ export function Navigation({ variant }: PropsNav) {
             </li>
           ))}
         </ul>
-          <BottomNavBtns />
+        <BottomNavBtns />
       </nav>
     );
   }
