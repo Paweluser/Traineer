@@ -15,7 +15,7 @@ export function ProgressChart() {
   const STEPS_IN_KILO: number = 1000;
 
   return (
-    <div className="mt-7 flex flex-col items-center justify-between gap-6 overflow-hidden rounded-2xl bg-(--glass-color)/50 p-6 backdrop-blur-xl md:flex-row">
+    <div className="mt-10 flex flex-col items-center justify-between gap-6 overflow-hidden rounded-2xl bg-(--glass-color)/50 p-6 backdrop-blur-xl md:flex-row">
       <div className="w-full min-w-0 md:w-2/3">
         <h2 className="text-2xl font-bold">Twoje postępy</h2>
         <p className="my-2 text-sm text-(--text-color)">Dziennie przez 7 dni</p>

@@ -1,3 +1,5 @@
+import { ProgressChart } from "../components/Chart/ProgressChart";
+
 export function Progress() {
-  return <div></div>;
+  return <ProgressChart />;
 }
