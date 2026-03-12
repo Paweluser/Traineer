@@ -7,13 +7,18 @@ import { Messages } from "./pages/Messages.tsx";
 import { Plan } from "./pages/Plan.tsx";
 import { Profile } from "./pages/Profile.tsx";
 import { Progress } from "./pages/Progress.tsx";
-import { MainLayout } from "./Layout/MainLayout.tsx";
+import { AppLayout } from "./Layout/AppLayout.tsx";
 import { Settings } from "./pages/Settings.tsx";
+import { MainPage } from "./pages/MainPage.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout />,
+    element: <MainPage />,
+  },
+  {
+    path: "/",
+    element: <AppLayout />,
     children: [
       { path: "/training", element: <Training /> },
       { path: "/messages", element: <Messages /> },
