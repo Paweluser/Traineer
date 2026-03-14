@@ -10,11 +10,16 @@ import { Progress } from "./pages/Progress.tsx";
 import { AppLayout } from "./Layout/AppLayout.tsx";
 import { Settings } from "./pages/Settings.tsx";
 import { MainPage } from "./pages/MainPage.tsx";
+import { RegisterPage } from "./pages/RegisterPage.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainPage />,
+  },
+  {
+    path: "/register",
+    element: <RegisterPage />,
   },
   {
     path: "/",

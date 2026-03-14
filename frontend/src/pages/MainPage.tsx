@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { HeroHeading } from "../components/MainPage/HeroHeading";
 import { MainNav } from "../components/Nav/MainNav";
-
+ 
 export function MainPage() {
   return (
     <div className="min-h-screen bg-(--black-color) text-(--text-color) selection:bg-(--hover-color)">

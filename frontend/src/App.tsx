@@ -1,5 +1,5 @@
-import { MainLayout } from "./Layout/AppLayout";
+import { AppLayout } from "./Layout/AppLayout";
 
 export function App() {
-  return <MainLayout />;
+  return <AppLayout />;
 }
