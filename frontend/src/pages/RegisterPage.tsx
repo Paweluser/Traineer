@@ -5,7 +5,7 @@ import { RegisterForm } from "../components/RegisterPage/RegisterForm";
 export function RegisterPage() {
   return (
     <div className="flex min-h-dvh items-center justify-center bg-(--black-color) text-(--text-color)">
-      <div className="m-3 flex w-full flex-col items-center gap-3 rounded-3xl bg-(--glass-color) p-4 xl:w-1/2">
+      <div className="m-3 flex w-[75%] flex-col items-center gap-3 rounded-3xl bg-(--glass-color) p-4 xl:w-1/2">
         <div className="mt-1 flex h-12 w-12 rotate-45 items-center justify-center rounded-lg bg-(--hover-color) md:mt-2 md:h-15 md:w-15">
           <Dumbbell className="h-7 w-7 -rotate-45 md:h-9 md:w-9" />
         </div>
