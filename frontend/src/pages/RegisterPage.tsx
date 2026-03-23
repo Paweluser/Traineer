@@ -13,7 +13,7 @@ export function RegisterPage() {
         subtitle="Zarejestruj się, aby zacząć swój progres"
       />
       <RegisterForm />
-      <div className="md:mt-1">
+      <div className="mt-4">
         <p className="text-(--grey-color-text)">
           Masz już konto?{" "}
           <Link

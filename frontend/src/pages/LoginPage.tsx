@@ -20,6 +20,13 @@ export function LoginPage() {
         <AuthLine />
       </div>
       <LoginBtn />
+      <div className="mt-4">
+        <p className="text-center text-(--grey-color-text)">
+          Logując się, akceptujesz nasz{" "}
+          <span className="text-(--text-color)">Regulamin</span> oraz{" "}
+          <span className="text-(--text-color)">Politykę Prywatności</span>
+        </p>
+      </div>
     </AuthLayout>
   );
 }
