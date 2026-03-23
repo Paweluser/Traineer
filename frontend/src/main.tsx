@@ -11,6 +11,7 @@ import { AppLayout } from "./Layout/AppLayout.tsx";
 import { Settings } from "./pages/Settings.tsx";
 import { MainPage } from "./pages/MainPage.tsx";
 import { RegisterPage } from "./pages/RegisterPage.tsx";
+import { LoginPage } from "./pages/LoginPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <RegisterPage />,
+  },
+  {
+    path: "/login",
+    element: <LoginPage />,
   },
   {
     path: "/",

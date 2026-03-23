@@ -3,7 +3,6 @@ import { Navigation } from "../components/Nav/Navigation";
 import { TopBar } from "../components/TopBar/TopBar";
 
 export function AppLayout() {
-
   return (
     <div className="min-h-dvh w-full bg-(--main-color) text-(--text-color) antialiased">
       <div className="mx-auto min-h-dvh w-full max-w-7xl px-4 sm:px-6">
