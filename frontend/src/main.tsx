@@ -26,18 +26,18 @@ const router = createBrowserRouter([
     path: "/login",
     element: <LoginPage />,
   },
-  {
-    path: "/",
-    element: <AppLayout />,
-    children: [
-      { path: "/training", element: <Training /> },
-      { path: "/messages", element: <Messages /> },
-      { path: "/plan", element: <Plan /> },
-      { path: "/profile", element: <Profile /> },
-      { path: "/progress", element: <Progress /> },
-      { path: "/settings", element: <Settings /> },
-    ],
-  },
+  // {
+  //   path: "/",
+  //   element: <AppLayout />,
+  //   children: [
+  //     { path: "/training", element: <Training /> },
+  //     { path: "/messages", element: <Messages /> },
+  //     { path: "/plan", element: <Plan /> },
+  //     { path: "/profile", element: <Profile /> },
+  //     { path: "/progress", element: <Progress /> },
+  //     { path: "/settings", element: <Settings /> },
+  //   ],
+  // },
 ]);
 
 createRoot(document.getElementById("root")!).render(
