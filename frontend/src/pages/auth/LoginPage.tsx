@@ -1,9 +1,9 @@
-import { AppLogo } from "../components/Other/AppLogo";
-import { AuthHeader } from "../components/AuthPage/AuthHeader";
-import { AuthLayout } from "../Layout/AuthLayout";
-import { GoogleBtn } from "../components/Other/GoogleBtn";
-import { LoginBtn } from "../components/Other/LoginBtn";
-import { AuthLine } from "../components/Other/AuthLine";
+import { AppLogo } from "../../components/Other/AppLogo";
+import { AuthHeader } from "../../components/AuthPage/AuthHeader";
+import { AuthLayout } from "../../Layout/AuthLayout";
+import { GoogleBtn } from "../../components/Other/GoogleBtn";
+import { LoginBtn } from "../../components/Other/LoginBtn";
+import { AuthLine } from "../../components/Other/AuthLine";
 
 export function LoginPage() {
   return (

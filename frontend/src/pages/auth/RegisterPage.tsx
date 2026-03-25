@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { RegisterForm } from "../components/AuthPage/RegisterForm";
-import { AuthLayout } from "../Layout/AuthLayout";
-import { AppLogo } from "../components/Other/AppLogo";
-import { AuthHeader } from "../components/AuthPage/AuthHeader";
+import { RegisterForm } from "../../components/AuthPage/RegisterForm";
+import { AuthLayout } from "../../Layout/AuthLayout";
+import { AppLogo } from "../../components/Other/AppLogo";
+import { AuthHeader } from "../../components/AuthPage/AuthHeader";
 
 export function RegisterPage() {
   return (

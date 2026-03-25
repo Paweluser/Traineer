@@ -1,7 +1,7 @@
 import {
   ClipboardList,
   Dumbbell,
-  MessageCircle,
+  BotMessageSquare,
   TrendingUp,
   User,
 } from "lucide-react";
@@ -23,9 +23,9 @@ export const navItems = [
       icon: TrendingUp,
     },
     {
-      label: "Czat",
-      to: "/messages",
-      icon: MessageCircle,
+      label: "AI",
+      to: "/bot",
+      icon: BotMessageSquare,
     },
     {
       label: "Profil",

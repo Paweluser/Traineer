@@ -1,6 +1,6 @@
-import { Achievements } from "../components/Profile/Achievements/Achievements";
-import { LifetimeStats } from "../components/Profile/LifeTimeStats/LifeTimeStats";
-import { ProfileHeader } from "../components/Profile/ProfileHeader/ProfileHeader";
+import { Achievements } from "../../components/Profile/Achievements/Achievements";
+import { LifetimeStats } from "../../components/Profile/LifeTimeStats/LifeTimeStats";
+import { ProfileHeader } from "../../components/Profile/ProfileHeader/ProfileHeader";
 
 export function Profile() {
   return (
